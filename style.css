@@ -1,0 +1,27 @@
+body {
+  font-family: "Montserrat";
+  background-color: #080c08;
+  color: #ecebf3;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #c20114;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #c20114;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+.profile_pic {
+  border-radius: 15%;
+}
