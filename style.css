@@ -4,6 +4,10 @@ body {
   color: #ecebf3;
 }
 
+.header {
+  text-align: center;
+}
+
 .btn {
   padding: 10px;
   margin: 5px;
@@ -30,6 +34,10 @@ p {
 
 .profile_pic {
   border-radius: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  display: block;
 }
 
 .about {
