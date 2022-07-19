@@ -27,7 +27,6 @@ header {
   display: block;
   padding: 20px;
   color: white;
-  border-style: dotted;
 }
 
 .btn {
@@ -36,4 +35,10 @@ header {
   color: white;
   font-weight: bold;
   background-color: rgba(150, 3, 150, 0.842);
+  margin-right: 5px;
+}
+
+.btn:hover {
+  background-color: azure;
+  color: rgba(150, 3, 150, 0.842);
 }
