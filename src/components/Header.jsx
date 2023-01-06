@@ -4,29 +4,33 @@ import "./Header.css";
 import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
 
 export default function Header() {
-  const { themeChanger } = useContext(portfolioContext);
+  const { themeChanger, theme } = useContext(portfolioContext);
   return (
-    <div className="header-container">
-      <ul className="header-list">
+    <div className={`${theme} header-container`}>
+      <ul className={`${theme} header-list`}>
         <li>
-          <button>Home</button>
+          <button className={`${theme}`}>Home</button>
         </li>
         <li>
-          <button>Projects</button>
+          <button className={`${theme}`}>Projects</button>
         </li>
         <li>
-          <button>About me</button>
+          <button className={`${theme}`}>About me</button>
         </li>
         <li>
-          <button>Contact</button>
+          <button className={`${theme}`}>Contact</button>
         </li>
         <li className="theme-switcher">
-          <BsFillSunFill className="sun" />
+          <BsFillSunFill className={`${theme}-sun`} />
           <label className="switch">
-            <input type="checkbox" onClick={themeChanger} />
+            <input
+              type="checkbox"
+              className="checkbox"
+              onClick={themeChanger}
+            />
             <span className="slider"></span>
           </label>
-          <BsFillMoonFill className="moon" />
+          <BsFillMoonFill className={`${theme}-moon`} />
         </li>
       </ul>
     </div>

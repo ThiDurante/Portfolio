@@ -1,0 +1,62 @@
+.icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: -50px;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: fixed;
+  bottom: 120px;
+  right: 2px;
+}
+
+.icon {
+  zoom: 1.5;
+  align-self: flex-end;
+  margin-right: 15px;
+  transition: 0.5s;
+}
+
+.light-teste {
+  background-color: black;
+  width: 1px;
+  height: 100px;
+  position: fixed;
+  bottom: 0px;
+  align-self: flex-end;
+  margin-right: 35px;
+}
+
+.dark-teste {
+  background-color: white;
+  width: 1px;
+  height: 100px;
+  position: fixed;
+  bottom: 0px;
+  align-self: flex-end;
+  margin-right: 35px;
+}
+
+a:visited {
+  color: black;
+}
+
+.instagram:hover {
+  color: rgb(255, 102, 0);
+}
+
+.linkedin:hover {
+  color: rgb(0, 60, 255);
+}
+
+.github:hover {
+  color: white;
+}
+
+.dark {
+  color: white;
+}
