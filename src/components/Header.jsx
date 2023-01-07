@@ -1,38 +1,84 @@
-import React, { useContext } from "react";
-import portfolioContext from "../context/portfolioContext";
+import React from "react";
 import "./Header.css";
-import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
+import { SiAboutdotme } from "react-icons/si";
+import { VscRocket } from "react-icons/vsc";
+import { IoCall } from "react-icons/io5";
+import Socials from "./Socials";
+import { FaAngleDoubleUp } from "react-icons/fa";
+import { AiOutlineHome } from "react-icons/ai";
+import { Link, useLocation } from "react-router-dom";
+import logo from "../images/logo.png";
 
 export default function Header() {
-  const { themeChanger, theme } = useContext(portfolioContext);
+  const location = useLocation();
+  console.log(location.pathname);
   return (
-    <div className={`${theme} header-container`}>
-      <ul className={`${theme} header-list`}>
-        <li>
-          <button className={`${theme}`}>Home</button>
-        </li>
-        <li>
-          <button className={`${theme}`}>Projects</button>
-        </li>
-        <li>
-          <button className={`${theme}`}>About me</button>
-        </li>
-        <li>
-          <button className={`${theme}`}>Contact</button>
-        </li>
-        <li className="theme-switcher">
-          <BsFillSunFill className={`${theme}-sun`} />
-          <label className="switch">
-            <input
-              type="checkbox"
-              className="checkbox"
-              onClick={themeChanger}
-            />
-            <span className="slider"></span>
-          </label>
-          <BsFillMoonFill className={`${theme}-moon`} />
-        </li>
-      </ul>
+    <div className="sidebar">
+      <div className="logo">
+        <img src={logo} alt="logo" />
+      </div>
+      <nav>
+        <div className="nav-title">Know about me</div>
+        <ul>
+          <Link style={{ textDecoration: "none" }} to="/">
+            <li
+              className={`nav-item ${
+                location.pathname === "/" ? "active" : ""
+              }`}
+            >
+              <AiOutlineHome className="i" />
+              <span>Home</span>
+            </li>
+          </Link>
+          <Link style={{ textDecoration: "none" }} to="/about">
+            <li
+              className={`nav-item ${
+                location.pathname === "/about" ? "active" : ""
+              }`}
+            >
+              <SiAboutdotme className="i" />
+              <span>About me</span>
+            </li>
+          </Link>
+          <Link style={{ textDecoration: "none" }} to="/projects">
+            <li
+              className={`nav-item ${
+                location.pathname === "/projects" ? "active" : ""
+              }`}
+            >
+              <VscRocket className="i" />
+              <span>Projects</span>
+            </li>
+          </Link>
+          <Link style={{ textDecoration: "none" }} to="/skills">
+            <li
+              className={`nav-item ${
+                location.pathname === "/skills" ? "active" : ""
+              }`}
+            >
+              <FaAngleDoubleUp className="i" />
+              <span>Skills</span>
+            </li>
+          </Link>
+        </ul>
+        <hr />
+        <div className="nav-title">Get in touch!</div>
+        <ul>
+          <Link style={{ textDecoration: "none" }} to="/contact">
+            <li
+              className={`nav-item ${
+                location.pathname === "/contact" ? "active" : ""
+              }`}
+            >
+              <IoCall className="i" />
+              <span>Contact me!</span>
+            </li>
+          </Link>
+          <li className="nav-item">
+            <Socials className="socials" />
+          </li>
+        </ul>
+      </nav>
     </div>
   );
 }

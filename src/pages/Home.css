@@ -5,28 +5,21 @@
   --fontDarkHome: white;
 }
 
-.light-home {
-  background-color: var(--bglightHome);
+.home-container {
+  background-image: url("../images/bgPorfolio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
-  transition: 1s;
+  display: flex;
 }
 
-.dark-home {
-  background-color: var(--bgdarkHome);
-  height: 100vh;
-  transition: 1s;
+.side {
+  width: 25%;
 }
 
-.light-bar {
+.home {
+  width: 75%;
   margin: auto;
-  margin-top: 20px;
-  width: 70%;
-}
-
-.dark-bar {
-  margin: auto;
-  margin-top: 20px;
-  width: 70%;
 }
 
 .title-container {
@@ -37,15 +30,7 @@
   align-items: flex-start;
 }
 
-.light-title-name {
-  margin-top: 20px;
-  font-size: 40px;
-  font-weight: 900;
-  color: var(--fontLightHome);
-  text-align: center;
-}
-
-.dark-title-name {
+.title-name {
   margin-top: 20px;
   font-size: 40px;
   font-weight: 900;
@@ -53,14 +38,7 @@
   text-align: center;
 }
 
-.light-title-p {
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: 900;
-  color: #116347c9;
-  margin-bottom: 15px;
-}
-.dark-title-p {
+.title-p {
   margin-top: 20px;
   font-size: 20px;
   font-weight: 900;
@@ -68,14 +46,7 @@
   margin-bottom: 15px;
 }
 
-.light-subtitle {
-  margin-top: 10px;
-  font-size: 30px;
-  font-weight: 900;
-  color: #2c42e7;
-  margin-bottom: 15px;
-}
-.dark-subtitle {
+.subtitle {
   margin-top: 10px;
   font-size: 30px;
   font-weight: 900;

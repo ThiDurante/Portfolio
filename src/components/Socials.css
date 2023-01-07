@@ -1,44 +1,19 @@
 .icons {
-  display: flex;
-  flex-direction: column;
   gap: 10px;
-  margin-top: -50px;
 }
 
 .icons-container {
   display: flex;
-  flex-direction: column;
   gap: 10px;
-  position: fixed;
   bottom: 120px;
   right: 2px;
 }
 
 .icon {
   zoom: 1.5;
-  align-self: flex-end;
   margin-right: 15px;
+  color: white;
   transition: 0.5s;
-}
-
-.light-teste {
-  background-color: black;
-  width: 1px;
-  height: 100px;
-  position: fixed;
-  bottom: 0px;
-  align-self: flex-end;
-  margin-right: 35px;
-}
-
-.dark-teste {
-  background-color: white;
-  width: 1px;
-  height: 100px;
-  position: fixed;
-  bottom: 0px;
-  align-self: flex-end;
-  margin-right: 35px;
 }
 
 a:visited {
@@ -54,9 +29,5 @@ a:visited {
 }
 
 .github:hover {
-  color: white;
-}
-
-.dark {
-  color: white;
+  color: rgb(108, 198, 68);
 }
