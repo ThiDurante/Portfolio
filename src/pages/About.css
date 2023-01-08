@@ -71,7 +71,7 @@ p {
   width: 250px;
   height: 250px;
   margin: auto;
-  border: 3px white solid;
+  border: 3px #3ab898dc solid;
   border-radius: 50%;
   animation: fadeInRight 1s ease-in-out;
 }
