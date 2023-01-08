@@ -1,4 +1,87 @@
 .about-container {
   display: flex;
   height: 100vh;
+  background-image: url("../images/aboutme.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 700px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.about-title {
+  color: #3ab898dc;
+  margin-bottom: 15px;
+  font-size: 2.3em;
+  align-self: center;
+  margin-right: 250px;
+}
+
+.about-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  text-indent: 10px;
+  font-size: 1.35em;
+  color: rgb(213, 212, 212);
+  width: 85%;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.fadein5 {
+  animation-duration: 0.5s;
+  animation-name: animate-fade;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+}
+
+.fadein10 {
+  animation-duration: 1s;
+  animation-name: animate-fade;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+}
+
+.fadein15 {
+  animation-duration: 1.5s;
+  animation-name: animate-fade;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.me {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  border: 3px white solid;
+  border-radius: 50%;
+  animation: fadeInRight 1s ease-in-out;;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  to {
+    opacity: 1;
+  }
 }
