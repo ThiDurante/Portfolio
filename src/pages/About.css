@@ -73,7 +73,7 @@ p {
   margin: auto;
   border: 3px white solid;
   border-radius: 50%;
-  animation: fadeInRight 1s ease-in-out;;
+  animation: fadeInRight 1s ease-in-out;
 }
 
 @keyframes fadeInRight {
