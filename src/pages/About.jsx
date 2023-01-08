@@ -19,14 +19,14 @@ export default function About() {
           </p>
           <p className="fadein10">
             There I worked as a manager, responsible for 13 co-workers,
-            finances, stock, paperwork and day-to-day problems.
+            finances, managing stock, paperwork and day-to-day problems.
           </p>
           <p className="fadein15">
-            By the year of 2022 I decided to pursue my wish to work with
+            By the year of 2022 I decided to pursue my desire to work with
             technology, and started to learn about programming. I enrolled
-            myself in Trybe's web development course. In which I learned about
-            tech used to develop web applications such as JavaScript, NodeJS,
-            Docker, TypeScript and many others.
+            myself in Trybe's web development course. In which I learned a lot
+            of what I know now, but I'm always looking for new challenges and
+            new things to learn.
           </p>
           <p className="fadein15">
             I'm quite sure that I've found my true passion, and I'm now looking
