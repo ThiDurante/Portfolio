@@ -14,12 +14,12 @@ export default function About() {
             I'm 32 years old, bachelor degree in biology at UNESP - Botucatu.
           </p>
           <p className="fadein10">
-            Though I never went down the path of Biology, once I finished the
+            But I never went down the path of Biology, once I finished the
             university I decided to work at my Father's gas station.
           </p>
           <p className="fadein10">
             There I worked as a manager, responsible for 13 co-workers,
-            finances, stock, paperwork and day to day problems.
+            finances, stock, paperwork and day-to-day problems.
           </p>
           <p className="fadein15">
             By the year of 2022 I decided to pursue my wish to work with
@@ -29,9 +29,9 @@ export default function About() {
             Docker, TypeScript and many others.
           </p>
           <p className="fadein15">
-            I'm quite sure that I've found what I really want to do and work
-            with, and I'm now looking for a opportunity to complete this
-            transition in my carrer, becomming a dev for your company! 😄
+            I'm quite sure that I've found my true passion, and I'm now looking
+            for a opportunity to complete this transition in my career, becoming
+            a dev for your company! 😄
           </p>
         </section>
       </main>
