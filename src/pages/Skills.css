@@ -1,0 +1,82 @@
+.skills-container {
+  display: flex;
+  height: 100vh;
+  background-image: url("../images/skills.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20%;
+}
+
+.skills {
+  display: flex;
+  padding: 5px;
+  margin: auto;
+  flex-direction: column;
+  width: 55%;
+  height: 50%;
+  backdrop-filter: blur(1px);
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(38, 167, 218, 0.486);
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.skills h1 {
+  color: #f1f0f0;
+  margin-bottom: 50px;
+  font-size: 2em;
+}
+
+.skills h2 {
+  color: #f1f0f0;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.front-skills {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  justify-items: center;
+  gap: 10px;
+  margin-right: 15%;
+}
+
+.back-skills {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  gap: 5px;
+  justify-items: center;
+  margin-right: 15%;
+}
+
+.fadein5 {
+  animation-duration: 0.3s;
+  animation-name: animate-fade;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

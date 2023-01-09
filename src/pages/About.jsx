@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import "./About.css";
-import me from "../images/teste.jpeg";
+import me from "../images/me.JPG";
 
 export default function About() {
   return (
