@@ -17,9 +17,9 @@
   backdrop-filter: blur(1px);
   justify-content: center;
   align-items: center;
-  background-color: rgba(38, 167, 218, 0.486);
+  background-color: rgba(24, 114, 150, 0.486);
   border-radius: 10px;
-  border: 1px solid white;
+  border: 2px solid white;
 }
 
 .skills h1 {

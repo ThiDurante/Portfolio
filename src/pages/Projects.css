@@ -1,0 +1,36 @@
+.projects-container {
+  display: flex;
+  height: 100vh;
+  background-image: url("../images/projectsBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projects {
+  margin: auto;
+  text-align: center;
+  border: 2px solid white;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(49, 192, 144, 0.411);
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+}
+
+.projects h2 {
+  color: white;
+}
+
+.project {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 250px;
+  height: 250px;
+  border: 1px solid white;
+}

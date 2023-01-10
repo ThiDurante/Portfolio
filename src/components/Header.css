@@ -107,3 +107,7 @@
   margin: 40px 0 50px;
   transition: 0.4s;
 }
+
+a {
+  text-decoration: none;
+}

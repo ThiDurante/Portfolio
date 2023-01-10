@@ -6,7 +6,7 @@ export default function Skills() {
   return (
     <div className="skills-container">
       <Header className="side" />
-      <section className="skills fadein5">
+      <section className="skills">
         <h1>Skills</h1>
         <section className="front">
           <h2>Front-end</h2>

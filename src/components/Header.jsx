@@ -64,7 +64,7 @@ export default function Header() {
         <hr />
         <div className="nav-title">Get in touch!</div>
         <ul>
-          <Link style={{ textDecoration: "none" }} to="/contact">
+          <a href="mailto:thiagotdurante@gmail.com">
             <li
               className={`nav-item ${
                 location.pathname === "/contact" ? "active" : ""
@@ -73,7 +73,7 @@ export default function Header() {
               <IoCall className="i" />
               <span>Contact me!</span>
             </li>
-          </Link>
+          </a>
           <li className="nav-item">
             <Socials className="socials" />
           </li>

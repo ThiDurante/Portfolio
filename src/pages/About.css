@@ -1,7 +1,7 @@
 .about-container {
   display: flex;
   height: 100vh;
-  background-image: url("../images/aboutme.jpg");
+  background-image: url("../images/aboutme.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
