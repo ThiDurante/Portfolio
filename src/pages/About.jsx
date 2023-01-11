@@ -33,6 +33,10 @@ export default function About() {
             for a opportunity to complete this transition in my career, becoming
             a dev for your company! 😄
           </p>
+          <p className="fadein15">
+            My hobbies are playing video games, watching movies/series, spending
+            time with my dog and going to the gym. 💪
+          </p>
         </section>
       </main>
       <img className="me" src={me} alt="eu" />

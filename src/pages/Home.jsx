@@ -12,9 +12,10 @@ export default function Home() {
           <h1 className="title-name fadein10">Thiago Durante!</h1>
           <h3 className="subtitle fadein15">I'm a digital craftsman.</h3>
           <p className="title-p fadein20">
-            I'm a Backend Junior Web Developer that focuses on building clean
-            and easy to read code, using technologies such as NodeJS, Express,
-            MongoDB, MySQL, Docker and a few more. Currently open for work.
+            I'm a Backend Junior Web Developer that focuses on building
+            functional, clean and easy to read code, using technologies such as
+            NodeJS, Express, MongoDB, MySQL, Docker and a few more. Currently
+            open for work.
           </p>
         </section>
       </main>

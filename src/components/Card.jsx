@@ -1,6 +1,5 @@
 import React from "react";
 import "./Card.css";
-import imagem from "../images/me.JPG";
 
 export default function Card(props) {
   const { project } = props;
@@ -8,7 +7,7 @@ export default function Card(props) {
     <div className="card">
       <div className="header">
         <div className="img-box">
-          <img className="img" src={imagem} alt="teste" />
+          <img className="img" src={project.image} alt="teste" />
         </div>
         <h1 className="title">{project.name}</h1>
       </div>

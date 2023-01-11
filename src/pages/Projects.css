@@ -9,21 +9,26 @@
 .projects {
   margin: auto;
   text-align: center;
+  width: 60%;
+  height: 60%;
+  max-height: 800px;
   padding: 30px;
-  border: 2px solid white;
+  border: 2px solid #edededf6;
   background-color: rgba(53, 54, 58, 0.568);
-  max-height: 700px;
   overflow-y: auto;
 }
 
 .links {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: 250px 250px 250px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
 .projects h2 {
-  color: white;
+  color: #edededf6;
+  font-size: 2.5em;
+  font-family: "Montserrat";
 }
 
 .project {

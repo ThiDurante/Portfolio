@@ -78,6 +78,7 @@ export default function Header() {
             <Socials className="socials" />
           </li>
         </ul>
+        <h4>Created and developed by: Thiago Durante</h4>
       </nav>
     </div>
   );
