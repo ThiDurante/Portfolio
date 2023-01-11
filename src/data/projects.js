@@ -3,25 +3,30 @@ const projectsTrybe = [
     name: "WeatherApp",
     state: "75%",
     image: "",
-    link: "hhtps://weatherapp-chi-eight.vercel.app",
+    link: "https://weatherapp-thidurante.vercel.app/",
+    description:
+      "Working with 2 APIs to give you weather information on the desired location",
   },
   {
     name: "TrybeWallet",
     state: "Done",
     image: "",
-    link: "trybewallet-bice.vercel.app",
+    link: "https://trybewallet-thidurante.vercel.app/",
+    description: "",
   },
   {
     name: "Tryunfo",
     state: "Done",
     image: "",
-    link: "https://https://tryunfo-nine.vercel.app/cards",
+    link: "https://tryunfo-thidurante.vercel.app/cards",
+    description: "",
   },
   {
     name: "PixelArts",
     state: "Done",
     image: "../images/bgPorfolio.jpg",
     link: "No link yet",
+    description: "",
   },
 ];
 

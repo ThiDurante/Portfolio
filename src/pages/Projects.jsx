@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import "./Projects.css";
 import projectsTrybe from "../data/projects";
+import Card from "../components/Card";
 
 export default function Projects() {
   return (
@@ -10,14 +11,8 @@ export default function Projects() {
       <section className="projects">
         <h2>Projects</h2>
         <div className="links">
-          {projectsTrybe.map((project) => (
-            <div className="project">
-              <p className="name">{project.name}</p>
-              <p className="state">{project.state}</p>
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
-                <img src={project.image} alt={project.name} />
-              </a>
-            </div>
+          {projectsTrybe.map((project, i) => (
+            <Card key={i} project={project} />
           ))}
         </div>
       </section>

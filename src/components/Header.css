@@ -26,7 +26,6 @@
 
 .sidebar .logo {
   width: 100%;
-  zoom: 1.1;
   height: 150px;
   padding: 40px 0;
   display: grid;
@@ -37,6 +36,7 @@
 
 .sidebar .logo img {
   width: 96px;
+  zoom: 1.5;
 }
 
 .sidebar .logo h3 {
@@ -110,4 +110,9 @@
 
 a {
   text-decoration: none;
+}
+
+.about-icon {
+  color: white;
+  zoom: 1;
 }

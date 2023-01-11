@@ -1,5 +1,7 @@
 .icons {
-  gap: 10px;
+  display: flex;
+  justify-content: center;
+  zoom: 1.2;
 }
 
 .icons-container {

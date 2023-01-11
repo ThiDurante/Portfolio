@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import { SiAboutdotme } from "react-icons/si";
+import { FaInfo } from "react-icons/fa";
 import { VscRocket } from "react-icons/vsc";
 import { IoCall } from "react-icons/io5";
 import Socials from "./Socials";
@@ -36,7 +36,7 @@ export default function Header() {
                 location.pathname === "/about" ? "active" : ""
               }`}
             >
-              <SiAboutdotme className="i" />
+              <FaInfo className="i about-icon" />
               <span>About me</span>
             </li>
           </Link>
