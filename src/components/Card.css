@@ -2,7 +2,7 @@
   --linkColor: #27b614;
   --bglightHome: #c9d2e4;
   --fontLightHome: #2033c7;
-  --f:ontDarkHome: white;
+  --fontDarkHome: white;
 }
 
 .card {
@@ -71,6 +71,7 @@
 .card .content p {
   transition: all 0.5s;
   margin-bottom: 8px;
+  text-indent: 10px;
 }
 
 .card .content .btn-link:hover {
@@ -86,6 +87,7 @@
   text-align: center;
   color: #212121;
   font-size: 1em;
+  text-indent: 0 !important;
 }
 
 .btn-link {

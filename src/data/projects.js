@@ -13,7 +13,7 @@ const projectsTrybe = [
     image: "https://i.imgur.com/h1WSCpP.png",
     link: "https://trybewallet-thidurante.vercel.app/",
     description:
-      "App to organize your expenses fetching data from current value of differente coins.",
+      "App to organize your expenses fetching data from current value of different coins.",
   },
   {
     name: "Tryunfo",
